@@ -21,14 +21,14 @@ Esta aplicação laravel, denominada "Escola", serve como uma plataforma para ge
    ```
 
 3. Configuração do Ambiente:
-   - Copie o arquivo `.env.example` para `.env` e configure com a credenciais do seu banco de dados.
+   - Copie o arquivo `.env.example` para `.env` e configure com as credenciais da sua base de dados.
    - Gere uma nova chave de aplicativo:
    ```bash
       php artisan key:generate
    ```
 
-4. Migração do Banco de Dados:
-   - Depois de criar as tabelas necessárias do banco de dados:
+4. Migração da base de dados:
+   - Depois de criar as tabelas necessárias da base de dados:
    ```bash
       php artisan migrate
    ```
@@ -41,15 +41,16 @@ Esta aplicação laravel, denominada "Escola", serve como uma plataforma para ge
 Depois do comando, será apresentado a porta localhost do aplicativo.
 
 ## Utilização
-Na página inicial da aplicação, no lado superior direito, encontrará o botão de `login` e o botão de `register`, se for criar uma conta.
+Na página inicial da aplicação, no lado superior direito, encontrará o botão `login` e o `register`, se pretende criar uma conta.
 
-Se estiver como administrador, conseguirá visualizar, editar e apagar cursos, alunos e matrículas. 
+Se estiver como administrador, conseguirá visualizar, editar e apagar cursos, alunos e matrículas.
+
 A informação aparecerá no lado direito de cada elemento.
 
 ## Estrutura do Projeto
-  - app/: Contém os arquivos do seu aplicativo Laravel.
+  - app/: Contém os arquivos do aplicativo Laravel.
   - config/: Configurações do Laravel.
-  - database/: Migrations e seeders do banco de dados.
+  - database/: Migrations e seeders da base de dados.
   - public/: Arquivos públicos acessíveis pelo navegador.
   - resources/: Views, assets front-end, e arquivos de tradução.
   - routes/: Arquivos de definição de rotas.
@@ -61,5 +62,6 @@ A informação aparecerá no lado direito de cada elemento.
 Este projeto está licenciado sob a Licença MIT.
 
 ## Contato
-Nome: Josemar Silvestre\n
+Nome: Josemar Silvestre
+
 Email: josimarsilvestre16@gmail.com
