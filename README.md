@@ -73,7 +73,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 
 
-# Projeto Laravel - Nome do Projeto
+# Projeto Laravel - Escola
 Breve descrição ou resumo do projeto.
 
 ## Requisitos
@@ -85,8 +85,8 @@ Breve descrição ou resumo do projeto.
 
 ## Instalação
 1. Clonando o Repositório:
- - git clone https://github.com/seu-usuario/nome-do-projeto.git
- - cd nome-do-projeto
+ - - git clone https://github.com/seu-usuario/nome-do-projeto.git
+ - - cd nome-do-projeto
 
 2. Instalando Dependências:
  - composer install
@@ -138,10 +138,10 @@ Crie uma branch para sua feature (git checkout -b feature/nova-feature)
 Faça commit das suas mudanças (git commit -am 'Adicionando nova feature')
 Faça push para o branch (git push origin feature/nova-feature)
 Crie um novo Pull Request
-Licença
+
+## Licença
 Este projeto está licenciado sob a Licença MIT.
 
-Contato
-Nome: Seu Nome
-Email: seu@email.com
-LinkedIn: Seu LinkedIn
+## Contato
+Nome: Josemar Silvestre
+Email: josimarsilvestre16@gmail.com
