@@ -1,5 +1,6 @@
 # Projeto Laravel - Escola
-Breve descrição ou resumo do projeto.
+Esta aplicação laravel, denominada "Escola", serve como uma plataforma para gerir informações relacionadas a alunos, cursos e matrículas. O administrador sendo capaz de remover cursos, alunos e matrículas.
+É uma aplicação direcionado mais para uso académico.
 
 ## Requisitos
  - PHP >= 7.4
@@ -9,11 +10,11 @@ Breve descrição ou resumo do projeto.
  - Git
 
 ## Instalação
-1. Clonando o Repositório:
+1. Clonar o Repositório:
    - git clone https://github.com/Josemarsilvestre/Escola.git
    - cd Escola
 
-2. Instalando Dependências:
+2. Instalar Dependências:
    ```bash
       composer install
    ```
@@ -33,16 +34,17 @@ Breve descrição ou resumo do projeto.
 
 5. Compilação de Assets Front-End (se aplicável):
    ```bash
-      npm install
+      npm install 
+   ```
+   ```bash
       npm run dev
    ```
-
-6. Iniciando o Servidor de Desenvolvimento:
+6. Iniciar o Servidor de Desenvolvimento:
    ```bash
       php artisan serve
    ```
 
-Depois do comando, será apresentado onde o aplicativo estará disponível.
+Depois do comando, será apresentado a porta localhost do aplicativo.
 
 ## Utilização
 Descreva aqui como os usuários podem interagir com a sua aplicação. Inclua informações sobre as funcionalidades principais, como:
