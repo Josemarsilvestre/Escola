@@ -46,7 +46,7 @@
             <p class="float-end mb-1">
                 <a href="#">Voltar ao topo</a>
             </p>
-            <p class="mb-1">Escola XYZ &copy; Este é o Seu Site de Educação.</p>
+            <p class="mb-1">Escola Royal &copy; Este é o Seu Site de Educação.</p>
         </div>
     </footer>
 
