@@ -61,5 +61,5 @@ A informação aparecerá no lado direito de cada elemento.
 Este projeto está licenciado sob a Licença MIT.
 
 ## Contato
-Nome: Josemar Silvestre
+Nome: Josemar Silvestre\n
 Email: josimarsilvestre16@gmail.com
