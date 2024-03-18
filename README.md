@@ -14,7 +14,7 @@ Breve descrição ou resumo do projeto.
    - cd Escola
 
 2. Instalando Dependências:
-   - 'composer install'
+   - `composer install`
 
 3. Configuração do Ambiente:
    - Copie o arquivo `.env.example` para `.env` e configure com suas credenciais de banco de dados.
@@ -22,6 +22,7 @@ Breve descrição ou resumo do projeto.
      - php artisan key:generate
 
 4. Migração do Banco de Dados:
+
 Se deseja criar as tabelas necessárias no banco de dados:
    - php artisan migrate
 
