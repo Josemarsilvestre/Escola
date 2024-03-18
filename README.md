@@ -85,16 +85,16 @@ Breve descrição ou resumo do projeto.
 
 ## Instalação
 1. Clonando o Repositório:
- - - git clone https://github.com/seu-usuario/nome-do-projeto.git
- - - cd nome-do-projeto
+   - git clone https://github.com/seu-usuario/nome-do-projeto.git
+   - cd nome-do-projeto
 
 2. Instalando Dependências:
- - composer install
+   - composer install
 
 3. Configuração do Ambiente:
- - Copie o arquivo .env.example para .env e configure com suas credenciais de banco de dados.
- - Gere uma nova chave de aplicativo:
-  - php artisan key:generate
+   - Copie o arquivo .env.example para .env e configure com suas credenciais de banco de dados.
+   - Gere uma nova chave de aplicativo:
+     - php artisan key:generate
 
 4. Migração do Banco de Dados:
 
