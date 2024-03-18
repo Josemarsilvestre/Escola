@@ -92,7 +92,7 @@ Breve descrição ou resumo do projeto.
    - composer install
 
 3. Configuração do Ambiente:
-   - Copie o arquivo .env.example para .env e configure com suas credenciais de banco de dados.
+   - Copie o arquivo `.env.example` para `.env` e configure com suas credenciais de banco de dados.
    - Gere uma nova chave de aplicativo:
      - php artisan key:generate
 
