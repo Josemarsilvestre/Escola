@@ -11,7 +11,7 @@ Breve descrição ou resumo do projeto.
 ## Instalação
 1. Clonando o Repositório:
    - git clone https://github.com/Josemarsilvestre/Escola.git
-   - cd nome-do-projeto
+   - cd Escola
 
 2. Instalando Dependências:
    - composer install
