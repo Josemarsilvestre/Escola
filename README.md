@@ -1,6 +1,7 @@
 # Projeto Laravel - Escola
 Esta aplicação laravel, denominada "Escola", serve como uma plataforma para gerir informações relacionadas a alunos, cursos e matrículas. O administrador sendo capaz de remover cursos, alunos e matrículas.
-É uma aplicação direcionado mais para uso académico.
+
+É uma aplicação direcionada mais para uso académico.
 
 ## Requisitos
  - PHP >= 7.4
@@ -20,26 +21,19 @@ Esta aplicação laravel, denominada "Escola", serve como uma plataforma para ge
    ```
 
 3. Configuração do Ambiente:
-   - Copie o arquivo `.env.example` para `.env` e configure com suas credenciais de banco de dados.
+   - Copie o arquivo `.env.example` para `.env` e configure com a credenciais do seu banco de dados.
    - Gere uma nova chave de aplicativo:
    ```bash
       php artisan key:generate
    ```
 
 4. Migração do Banco de Dados:
-   - Se deseja criar as tabelas necessárias no banco de dados:
+   - Depois de criar as tabelas necessárias do banco de dados:
    ```bash
       php artisan migrate
    ```
 
-5. Compilação de Assets Front-End (se aplicável):
-   ```bash
-      npm install 
-   ```
-   ```bash
-      npm run dev
-   ```
-6. Iniciar o Servidor de Desenvolvimento:
+5. Iniciar o Servidor de Desenvolvimento:
    ```bash
       php artisan serve
    ```
@@ -47,29 +41,21 @@ Esta aplicação laravel, denominada "Escola", serve como uma plataforma para ge
 Depois do comando, será apresentado a porta localhost do aplicativo.
 
 ## Utilização
-Descreva aqui como os usuários podem interagir com a sua aplicação. Inclua informações sobre as funcionalidades principais, como:
+Na página inicial da aplicação, no lado superior direito, encontrará o botão de `login` e o botão de `register`, se for criar uma conta.
 
-Como criar uma conta
-Como fazer login
-Como realizar ações específicas
-Estrutura do Projeto
-app/: Contém os arquivos do seu aplicativo Laravel.
-config/: Configurações do Laravel.
-database/: Migrations e seeders do banco de dados.
-public/: Arquivos públicos acessíveis pelo navegador.
-resources/: Views, assets front-end, e arquivos de tradução.
-routes/: Arquivos de definição de rotas.
-storage/: Arquivos gerados pela aplicação, como logs e uploads.
-tests/: Testes automatizados.
-vendor/: Bibliotecas de terceiros instaladas via Composer.
-Contribuição
-Se deseja contribuir para o projeto, siga os passos abaixo:
+Se estiver como administrador, conseguirá visualizar, editar e apagar cursos, alunos e matrículas. 
+A informação aparecerá no lado direito de cada elemento.
 
-Faça um fork do projeto
-Crie uma branch para sua feature (git checkout -b feature/nova-feature)
-Faça commit das suas mudanças (git commit -am 'Adicionando nova feature')
-Faça push para o branch (git push origin feature/nova-feature)
-Crie um novo Pull Request
+## Estrutura do Projeto
+  - app/: Contém os arquivos do seu aplicativo Laravel.
+  - config/: Configurações do Laravel.
+  - database/: Migrations e seeders do banco de dados.
+  - public/: Arquivos públicos acessíveis pelo navegador.
+  - resources/: Views, assets front-end, e arquivos de tradução.
+  - routes/: Arquivos de definição de rotas.
+  - storage/: Arquivos gerados pela aplicação, como logs e uploads.
+  - tests/: Testes automatizados.
+  - vendor/: Bibliotecas de terceiros instaladas via Composer.
 
 ## Licença
 Este projeto está licenciado sob a Licença MIT.
