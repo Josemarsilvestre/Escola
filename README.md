@@ -10,7 +10,7 @@ Breve descrição ou resumo do projeto.
 
 ## Instalação
 1. Clonando o Repositório:
-   - git clone https://github.com/seu-usuario/nome-do-projeto.git
+   - git clone https://github.com/Josemarsilvestre/Escola.git
    - cd nome-do-projeto
 
 2. Instalando Dependências:
