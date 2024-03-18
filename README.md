@@ -14,7 +14,7 @@ Breve descrição ou resumo do projeto.
    - cd Escola
 
 2. Instalando Dependências:
-   - composer install
+   - "composer install"
 
 3. Configuração do Ambiente:
    - Copie o arquivo `.env.example` para `.env` e configure com suas credenciais de banco de dados.
