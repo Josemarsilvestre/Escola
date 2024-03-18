@@ -21,11 +21,15 @@ Breve descrição ou resumo do projeto.
 3. Configuração do Ambiente:
    - Copie o arquivo `.env.example` para `.env` e configure com suas credenciais de banco de dados.
    - Gere uma nova chave de aplicativo:
-     - php artisan key:generate
+   ```bash
+      php artisan key:generate
+   ```
 
 4. Migração do Banco de Dados:
    - Se deseja criar as tabelas necessárias no banco de dados:
-     - php artisan migrate
+   ```bash
+      php artisan migrate
+   ```
 
 5. Compilação de Assets Front-End (se aplicável):
    - npm install
