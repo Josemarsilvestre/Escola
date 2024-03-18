@@ -14,9 +14,9 @@ class UserSeeder extends Seeder
 
         // Criar um administrador com acesso total
         User::create([
-            'name' => 'Admin Total',
-            'email' => 'admintotal@example.com',
-            // Outros campos necessários, como senha
+            'name' => 'beemote',
+            'email' => 'beemote@admin.com',
+            'password' => bcrypt('12345678'),
             'role' => 'admin_total',
         ]);
 
@@ -24,7 +24,7 @@ class UserSeeder extends Seeder
         User::create([
             'name' => 'Admin Parcial',
             'email' => 'adminparcial@example.com',
-            // Outros campos necessários, como senha
+            'password' => bcrypt('12345678'),
             'role' => 'admin_parcial',
         ]);
     }
