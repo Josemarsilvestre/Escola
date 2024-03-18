@@ -59,7 +59,7 @@ A informação aparecerá no lado direito de cada elemento.
   - vendor/: Bibliotecas de terceiros instaladas via Composer.
 
 ## Licença
-Este projeto está licenciado sob a Licença MIT.
+Este projeto está sob a Licença MIT.
 
 ## Contato
 Nome: Josemar Silvestre
