@@ -3,7 +3,7 @@
 @section('content')
 <div class="container mt-4">
     <div class="jumbotron">
-        <h1 class="display-4">Bem-vindo à Escola XYZ!</h1>
+        <h1 class="display-4">Bem-vindo à Escola <a style="color: rgb(184,134,11)">Royal</a>!</h1>
         <p class="lead">O nosso compromisso é oferecer educação de qualidade para todos.</p>
         <hr class="my-4">
         <p>Aceda aos nossos cursos e saiba mais sobre o que oferecemos.</p>
