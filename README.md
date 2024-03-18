@@ -73,17 +73,17 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 
 
-#Projeto Laravel - Nome do Projeto
+# Projeto Laravel - Nome do Projeto
 Breve descrição ou resumo do projeto.
 
-##Requisitos
+## Requisitos
  - PHP >= 7.4
  - Composer
  - MySQL, PostgreSQL, SQLite ou SQL Server
  - Node.js (para compilar assets front-end, se aplicável)
  - Git
 
-##Instalação
+## Instalação
 1. Clonando o Repositório:
  - git clone https://github.com/seu-usuario/nome-do-projeto.git
  - cd nome-do-projeto
@@ -92,20 +92,14 @@ Breve descrição ou resumo do projeto.
  - composer install
 
 3. Configuração do Ambiente:
+ - Copie o arquivo .env.example para .env e configure com suas credenciais de banco de dados.
+ - Gere uma nova chave de aplicativo:
+  - php artisan key:generate
 
-Copie o arquivo .env.example para .env e configure com suas credenciais de banco de dados.
-
-Gere uma nova chave de aplicativo:
-
-bash
-Copy code
-php artisan key:generate
-Migração do Banco de Dados:
+4. Migração do Banco de Dados:
 
 Se deseja criar as tabelas necessárias no banco de dados:
 
-bash
-Copy code
 php artisan migrate
 Compilação de Assets Front-End (se aplicável):
 
