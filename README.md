@@ -14,9 +14,9 @@ Breve descrição ou resumo do projeto.
    - cd Escola
 
 2. Instalando Dependências:
-```bash
-   composer install
-```
+   ```bash
+      composer install
+   ```
 
 3. Configuração do Ambiente:
    - Copie o arquivo `.env.example` para `.env` e configure com suas credenciais de banco de dados.
@@ -32,11 +32,15 @@ Breve descrição ou resumo do projeto.
    ```
 
 5. Compilação de Assets Front-End (se aplicável):
-   - npm install
-   - npm run dev
+   ```bash
+      npm install
+      npm run dev
+   ```
 
 6. Iniciando o Servidor de Desenvolvimento:
-   - php artisan serve
+   ```bash
+      php artisan serve
+   ```
 
 Depois do comando, será apresentado onde o aplicativo estará disponível.
 
