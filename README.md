@@ -1,4 +1,4 @@
-# Projeto Laravel - Escola
+# Projeto 'Escola'
 Esta aplicação laravel, denominada "Escola", serve como uma plataforma para gerir informações relacionadas a alunos, cursos e matrículas. O administrador sendo capaz de remover cursos, alunos e matrículas.
 
 É uma aplicação direcionada mais para uso académico.
@@ -41,7 +41,7 @@ Esta aplicação laravel, denominada "Escola", serve como uma plataforma para ge
 Depois do comando, será apresentado a porta localhost do aplicativo.
 
 ## Utilização
-Na página inicial da aplicação, no lado superior direito, encontrará o botão `login` e o `register`, se desejar criar uma conta.
+Na página inicial da aplicação, no lado superior direito, encontrará o botão `login` e o `register`, se pretende criar uma conta.
 
 Se estiver como administrador, conseguirá visualizar, editar e apagar cursos, alunos e matrículas.
 
